@@ -1,0 +1,50 @@
+[
+    {
+        "expenseId": 1,
+        "lotId": 1,
+        "period": "01/25",
+        "totalAmount": 10000,
+        "fines": [
+            {
+                "fineId": 1,
+                "description": "multa 1",
+                "amount": 2000
+            },
+            {
+                "fineId": 1,
+                "description": "multa 2",
+                "amount": 2000
+            }
+        ],
+        "individualCharges": [
+            {
+                "description": "Limpieza frente casa",
+                "amount": 5000
+            }
+        ]
+    },
+    {
+        "expenseId": 2,
+        "lotId": 2,
+        "period": "01/25",
+        "totalAmount": 10000,
+        "fines": [
+            {
+                "fineId": 1,
+                "description": "multa 1",
+                "amount": 2000
+            },
+            {
+                "fineId": 1,
+                "description": "multa 2",
+                "amount": 2000
+            }
+        ],
+        "individualCharges": [
+            {
+                "description": "Limpieza frente casa",
+                "amount": 5000
+            }
+        ]
+    }
+]
