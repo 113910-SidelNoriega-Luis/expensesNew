@@ -1,53 +1,75 @@
 {
-    "Expense" : [
-    {
-        "expenseId": 1,
-        "lotId": 1,
-        "period": "01/25",
-        "totalAmount": 10000,
-        "fines": [
-            {
-                "fineId": 1,
-                "description": "multa 1",
-                "amount": 2000
-            },
-            {
-                "fineId": 1,
-                "description": "multa 2",
-                "amount": 2000
-            }
-        ],
-        "individualCharges": [
-            {
-                "description": "Limpieza frente casa",
-                "amount": 5000
-            }
-        ]
-    },
-    {
-        "expenseId": 2,
-        "lotId": 2,
-        "period": "01/25",
-        "totalAmount": 10000,
-        "fines": [
-            {
-                "fineId": 1,
-                "description": "multa 1",
-                "amount": 2000
-            },
-            {
-                "fineId": 1,
-                "description": "multa 2",
-                "amount": 2000
-            }
-        ],
-        "individualCharges": [
-            {
-                "description": "Limpieza frente casa",
-                "amount": 5000
-            }
-        ]
+    "Expense": [
+        {
+            "expenseId": 1,
+            "lotId": 1,
+            "period": "01/25",
+            "totalAmount": 10000,
+            "fines": [
+                {
+                    "fineId": 1,
+                    "description": "multa x",
+                    "amount": 2000
+                },
+                {
+                    "fineId": 2,
+                    "description": "multa x",
+                    "amount": 2000
+                }
+            ],
+            "individualCharges": [
+                {
+                    "description": "Limpieza frente casa",
+                    "amount": 5000
+                }
+            ]
+        },
+        {
+            "expenseId": 2,
+            "lotId": 2,
+            "period": "01/25",
+            "totalAmount": 10000,
+            "fines": [
+                {
+                    "fineId": 3,
+                    "description": "multa x",
+                    "amount": 2000
+                },
+                {
+                    "fineId": 4,
+                    "description": "multa x",
+                    "amount": 2000
+                }
+            ],
+            "individualCharges": [
+                {
+                    "description": "Limpieza frente casa",
+                    "amount": 5000
+                }
+            ]
+        }
+    ],
+    "LiquidationExpense": {
+        "ordinary": {
+            "period": "01/25",
+            "Luz": 200000,
+            "Agua": 300000,
+            "Gas": 150000,
+            "Sueldos y jornales": 100000,
+            "Fondo de emergencia": 50000,
+            "Total gastos Ordinarios": 800000,
+            "Estado": "Aprobado"
+        },
+        "extraordinary": {
+            "charges": [
+                {
+                    "description": "Reparacion de Portón",
+                    "amount": 50000
+                }
+            ],
+            "totalExtraordinaryExpenses": 50000,
+            "Estado": "Aprobado"
+        },
+        "totalAmount": 850000
     }
-]
-
 }
