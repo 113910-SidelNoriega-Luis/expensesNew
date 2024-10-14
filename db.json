@@ -104,25 +104,6 @@
                     "amount": 6000
                 }
             ]
-        },
-        {
-            "expenseId": 6,
-            "lotId": 6,
-            "period": "01/25",
-            "totalAmount": 14000,
-            "fines": [
-                {
-                    "fineId": 8,
-                    "description": "multa x",
-                    "amount": 1000
-                }
-            ],
-            "individualCharges": [
-                {
-                    "description": "Mantenimiento de jardín",
-                    "amount": 7000
-                }
-            ]
         }
     ],
     "LiquidationExpense": {
