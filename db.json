@@ -104,6 +104,216 @@
                     "amount": 6000
                 }
             ]
+        },
+        {
+            "expenseId": 1,
+            "lotId": 1,
+            "period": "02/25",
+            "totalAmount": 10000,
+            "fines": [
+                {
+                    "fineId": 1,
+                    "description": "multa x",
+                    "amount": 2000
+                },
+                {
+                    "fineId": 2,
+                    "description": "multa x",
+                    "amount": 2000
+                }
+            ],
+            "individualCharges": [
+                {
+                    "description": "Limpieza frente casa",
+                    "amount": 5000
+                }
+            ]
+        },
+        {
+            "expenseId": 2,
+            "lotId": 2,
+            "period": "02/25",
+            "totalAmount": 10000,
+            "fines": [
+                {
+                    "fineId": 3,
+                    "description": "multa x",
+                    "amount": 2000
+                },
+                {
+                    "fineId": 4,
+                    "description": "multa x",
+                    "amount": 2000
+                }
+            ],
+            "individualCharges": [
+                {
+                    "description": "Limpieza frente casa",
+                    "amount": 5000
+                }
+            ]
+        },
+        {
+            "expenseId": 3,
+            "lotId": 3,
+            "period": "02/25",
+            "totalAmount": 12000,
+            "fines": [
+                {
+                    "fineId": 5,
+                    "description": "multa y",
+                    "amount": 3000
+                }
+            ],
+            "individualCharges": [
+                {
+                    "description": "Poda de árbol",
+                    "amount": 4000
+                }
+            ]
+        },
+        {
+            "expenseId": 4,
+            "lotId": 4,
+            "period": "02/25",
+            "totalAmount": 11000,
+            "fines": [
+                {
+                    "fineId": 6,
+                    "description": "multa z",
+                    "amount": 1500
+                }
+            ],
+            "individualCharges": [
+                {
+                    "description": "Pintura de reja",
+                    "amount": 3000
+                }
+            ]
+        },
+        {
+            "expenseId": 5,
+            "lotId": 5,
+            "period": "02/25",
+            "totalAmount": 13000,
+            "fines": [
+                {
+                    "fineId": 7,
+                    "description": "multa x",
+                    "amount": 2500
+                }
+            ],
+            "individualCharges": [
+                {
+                    "description": "Reparación de cañería",
+                    "amount": 6000
+                }
+            ]
+        },
+        {
+            "expenseId": 1,
+            "lotId": 1,
+            "period": "03/25",
+            "totalAmount": 10000,
+            "fines": [
+                {
+                    "fineId": 1,
+                    "description": "multa x",
+                    "amount": 2000
+                },
+                {
+                    "fineId": 2,
+                    "description": "multa x",
+                    "amount": 2000
+                }
+            ],
+            "individualCharges": [
+                {
+                    "description": "Limpieza frente casa",
+                    "amount": 5000
+                }
+            ]
+        },
+        {
+            "expenseId": 2,
+            "lotId": 2,
+            "period": "03/25",
+            "totalAmount": 10000,
+            "fines": [
+                {
+                    "fineId": 3,
+                    "description": "multa x",
+                    "amount": 2000
+                },
+                {
+                    "fineId": 4,
+                    "description": "multa x",
+                    "amount": 2000
+                }
+            ],
+            "individualCharges": [
+                {
+                    "description": "Limpieza frente casa",
+                    "amount": 5000
+                }
+            ]
+        },
+        {
+            "expenseId": 3,
+            "lotId": 3,
+            "period": "03/25",
+            "totalAmount": 12000,
+            "fines": [
+                {
+                    "fineId": 5,
+                    "description": "multa y",
+                    "amount": 3000
+                }
+            ],
+            "individualCharges": [
+                {
+                    "description": "Poda de árbol",
+                    "amount": 4000
+                }
+            ]
+        },
+        {
+            "expenseId": 4,
+            "lotId": 4,
+            "period": "03/25",
+            "totalAmount": 11000,
+            "fines": [
+                {
+                    "fineId": 6,
+                    "description": "multa z",
+                    "amount": 1500
+                }
+            ],
+            "individualCharges": [
+                {
+                    "description": "Pintura de reja",
+                    "amount": 3000
+                }
+            ]
+        },
+        {
+            "expenseId": 5,
+            "lotId": 5,
+            "period": "03/25",
+            "totalAmount": 13000,
+            "fines": [
+                {
+                    "fineId": 7,
+                    "description": "multa x",
+                    "amount": 2500
+                }
+            ],
+            "individualCharges": [
+                {
+                    "description": "Reparación de cañería",
+                    "amount": 6000
+                }
+            ]
         }
     ],
     "LiquidationExpense": {
